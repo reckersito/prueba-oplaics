@@ -9,3 +9,5 @@ Issue request
 # Frontend update
 
 # Backend Update
+
+Bug solicionado
