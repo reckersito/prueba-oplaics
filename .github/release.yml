@@ -1,0 +1,32 @@
+# Archivo: .github/release.yml
+# ----------------------------------------------------
+
+changelog:
+  # Excluir PRs que solo sean para documentación o mantenimiento menor
+  exclude:
+    labels:
+      - skip-changelog
+      - documentation
+      - dependencies
+  
+  categories:
+    # --- GRUPO 1: Cambios en el Frontend ---
+    - title: 🎨 Frontend (UI/UX)
+      labels:
+        - "scope: frontend" # Debe coincidir exactamente con la etiqueta usada
+        
+    # --- GRUPO 2: Cambios en el Backend/API ---
+    - title: ⚙️ Backend y Servicios
+      labels:
+        - "scope: backend"
+        
+    # --- GRUPO 3: Correcciones de Errores ---
+    - title: 🐛 Correcciones (Bug Fixes)
+      labels:
+        - "bug"
+        - "fix"
+        
+    # --- GRUPO 4: Cambios sin etiqueta específica ---
+    - title: Otros Cambios y Mejoras
+      labels:
+        - "*" # Excluir todas las etiquetas anteriores
