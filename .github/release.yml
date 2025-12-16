@@ -7,6 +7,7 @@ changelog:
     labels:
       - skip-changelog
   
+  # Definir categorías personalizadas para el changelog en español
   categories:
     - title: 📝 Documentación
       labels:
