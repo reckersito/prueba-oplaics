@@ -47,6 +47,6 @@ changelog:
       labels:
         - "type: security"
         
-    - title: Otros Cambios y Mejoras
+    - title: Otros Cambios
       labels:
         - "*" # Excluir todas las etiquetas anteriores
